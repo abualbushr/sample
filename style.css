@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-image: url(hbg.jpeg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-nav li a{
+    float: right;
+    color: #fff;
+
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: auto;
+}
