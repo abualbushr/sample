@@ -6,10 +6,14 @@
 #header{
     background-image: url(hbg.jpeg);
     height: 80vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
 }
 
+.image-section img{
+    width: 100%;
+}
 .navbar-nav li a{
     float: right;
     color: #fff;
@@ -21,8 +25,39 @@
     width: auto;
 }
 
-.title{
-    color: bisque;
-    background-color: black;
-    padding: 5px;
+.welcome{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
+.hero-section{
+    
+}
+
+@media screen and (min-width: 700px) {
+    body {
+      background-color: red;
+    }
+    h1{
+        color: red;
+    }
+    .welcome{
+        width: 98%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero-section{
+        margin: 5px;
+        width: 45%;
+    }
+    .image-section{
+        margin: 5px;
+        width: 45%;
+    }
+    .image-section img{
+        width: 100%;
+    }
+  }
